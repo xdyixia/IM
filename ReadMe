@@ -5,15 +5,10 @@
 1，java中网络相关API
 	InetAddress类
  	URL类
- 	
- 实验：展示了这两个类的部分方法的使用。
 
 2，基于TCP的socket通信
 	客户端套接字  Socket类
 	服务器端的套接字  ServerSocket类
-	
-实验：服务器端监听本机的8888端口，利用多线程实现与多个客户端的通信
-	客户端，向服务器端发送请求，并接受服务端响应。
 	
 3,基于UDP的socket通信
 	DatagramPacket:表示数据报包
