@@ -18,10 +18,3 @@
 3,基于UDP的socket通信
 	DatagramPacket:表示数据报包
 	DatagramSocket：进行端到端通信的类
-	
-
-	
-注意：是否关闭输出流与输入流
-不关闭。
-因为对于同一个socket，如果关闭了输出流，则与该流相关的socket也会关闭；关闭socket，相应的流也会关闭，所以直接关socket即可
-
